@@ -1,0 +1,234 @@
+.heading{
+	background-color:silver;
+	animation-name: FadeOut;
+	color:black;
+	font-size:50px;
+	margin-top:-8px;
+	padding-top:10px;
+	padding-bottom:10px;
+	overflow:hidden;
+	top:0;
+	text-align:left;
+}
+
+.mainbody{
+	font-family:"Times New Roman",Times,serif;
+	font-size:16px;
+}
+
+h1 a{
+	text-decoration:none;
+	color:black;
+}
+
+ul{
+	font-size:24px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:gray;
+  position:relative;
+  bottom:35px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.news1{
+	width:400px;
+	height:500px;
+	background-color:white;
+	padding-bottom:17px;
+	box-shadow: 0 4px 8px 0 rgba(139, 69, 19, 2), 0 6px 20px 0 rgba(139, 69, 19, 2);
+	margin:auto;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+
+.news2{
+	width:400px;
+	height:500px;
+	background-color:white;
+	padding-bottom:17px;
+	box-shadow: 0 4px 8px 0 rgba(139, 69, 19, 2), 0 6px 20px 0 rgba(139, 69, 19, 2);
+	margin:auto;
+	overflow:hidden;
+	position:absolute;
+	left:50px;
+	top:167px;
+	margin-bottom:15px;
+}
+
+.news3{
+	width:400px;
+	height:500px;
+	background-color:white;
+	padding-bottom:17px;
+	box-shadow: 0 4px 8px 0 rgba(139, 69, 19, 2), 0 6px 20px 0 rgba(139, 69, 19, 2);
+	margin:auto;
+	overflow:hidden;
+	float:left;
+	position:absolute;
+	right:50px;
+	top:167px;
+	margin-bottom:15px;
+}
+
+.aboutus{
+	text-align:center;
+	background-color:silver;
+	height:350px;
+	width:450px;
+	margin:auto;
+	box-shadow: 0 4px 8px 0 rgba(75, 0, 130, 2), 0 6px 20px 0 rgba(75, 0, 130, 2);
+	overflow:hidden;
+	position:relative;
+	top:30px;
+	padding:10px 20px;
+}
+
+.contactus{
+	height:450px;
+	width:600px;
+	text-align:center;
+	background-color:silver;
+	margin:auto;
+	box-shadow: 0 4px 8px 0 rgba(75, 0, 130, 2), 0 6px 20px 0 rgba(75, 0, 130, 2);
+	overflow:hidden;
+}
+
+input[type=text],input[type=phone],input[type=email]{
+	width:95%;
+	height:40px;
+	display:inline-block;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	padding-left:10px;
+}
+
+.button{
+	height:40px;
+	background-color:rgb(60,35,35);
+	color:white;
+	margin:20px 0;
+	border:none;
+	cursor:pointer;
+	width:95%;
+}
+
+button:hover{
+	opacity:0.7;
+	background-color:lightgrey;
+}
+
+.mySlides {display: none}
+
+.Mtitle{
+	text-decoration:underline;
+	padding-left:20px;
+	padding-bottom:30px;
+	color:gold;
+}
+	
+.contentbox1{
+	height:750px;
+	width:400px;
+	background-color:#576A7F;
+	opacity:0.9;
+	box-shadow: 0 4px 8px 0 rgba(225, 165, 0, 1), 0 6px 20px 0 rgba(225, 165, 0, 1);
+	position:absolute;
+	left:30px;
+	overflow:hidden;
+}
+
+.slideshow-container {
+  height:300px;
+  width: 400px;
+}
+
+.modelsbutton{
+	height:40px;
+	background-color:yellow;
+	color:black;
+	margin:20px 0;
+	border:none;
+	cursor:pointer;
+	width:200px;
+	position:relative;
+	left:110px;
+}
+
+.contentbox2{
+	height:750px;
+	width:400px;
+	background-color:#576A7F;
+	opacity:0.9;
+	box-shadow: 0 4px 8px 0 rgba(178, 34, 34, 2), 0 6px 20px 0 rgba(178, 34, 34, 2);
+	margin:auto;
+	overflow:hidden;
+}
+
+.contentbox3{
+	height:750px;
+	width:400px;
+	background-color:#576A7F;
+	opacity:0.9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 205, 2), 0 6px 20px 0 rgba(0, 0, 205, 2);
+	position:absolute;
+	top:275px;
+	right:30px;
+	overflow:hidden;
+}
+
+.contentbox4{
+	height:750px;
+	width:400px;
+	background-color:#576A7F;
+	opacity:0.9;
+	box-shadow: 0 4px 8px 0 rgba(139, 0, 139, 2), 0 6px 20px 0 rgba(139, 0, 139, 2);
+	position:absolute;
+	left:30px;
+	overflow:hidden;
+	margin-top:30px;
+	margin-bottom:15px;
+}
+
+.contentbox5{
+	height:750px;
+	width:400px;
+	background-color:#576A7F;
+	opacity:0.9;
+	box-shadow: 0 4px 8px 0 rgba(199,21,133, 2), 0 6px 20px 0 rgba(199,21,133, 2);
+	position:relative;
+	top:30px;
+	margin:auto;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+
+.contentbox6{
+	height:750px;
+	width:400px;
+	background-color:#576A7F;
+	opacity:0.9;
+	box-shadow: 0 4px 8px 0 rgba(124,252,0, 2), 0 6px 20px 0 rgba(124,252,0, 2);
+	position:absolute;
+	top:1055px;
+	right:30px;
+	overflow:hidden;
+	margin-bottom:15px;
+}
